@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <!--css-->
+    <link rel="stylesheet" href ="style.css">
+
+    <!--Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <!--header-->
+        <header class="header">
+            <div class="logo">
+                S-SCHOOL
+            </div>
+            <div class="header-left">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href=""><span class="material-icons-outlined">
+                            dashboard
+                        </span>Dashboard</a>
+                    </li>
+                    <li class="list-item">
+                        <a href=""><span class="material-icons-outlined">
+                            people
+                        </span>Students</a>
+                    </li>
+                    <li class="list-item">
+                        <a href=""><span class="material-icons-outlined">
+                           content_paste 
+                        </span>Results</a>
+                    </li>
+                    <li class="list-item">
+                        <a href=""><span class="material-icons-outlined">
+                            inventory
+                        </span>Reports</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+        <!--main content -->
+        <main class="main-container">
+        <div class="main-card" id="category-container">
+
+            <!-- <div class="card">
+                <div class="inner-card">
+                    <p>STUDENTS</p>
+                    <div class ="icon icon-shape background-green text-primary">
+                        <span class="material-icons-outlined">people</span>
+                    </div>
+
+                </div>
+                <span class="text-primary">1000</span>
+            </div>
+
+            <div class="card">
+                <div class="inner-card">
+                    <p>RESULTS</p>
+                    <div class ="icon icon-shape background-red text-primary">
+                        <span class="material-icons-outlined">content_paste</span>
+                    </div>
+
+                </div>
+                <span class="text-primary">2000</span>
+            </div>
+
+            <div class="card">
+                <div class="inner-card">
+                    <p>REPORTS</p>
+                    <div class ="icon icon-shape background-blue text-primary">
+                        <span class="material-icons-outlined">inventory</span>
+                    </div>
+
+                </div>
+                <span class="text-primary">567</span>
+            </div>
+
+            <div class="card">
+                <div class="inner-card">
+                    <p>FINANCE</p>
+                    <div class ="icon icon-shape background-black text-primary">
+                        <span class="material-icons-outlined">payment</span>
+                    </div>
+
+                </div>
+                <span class="text-primary">10</span>
+            </div> -->
+        </div>
+
+         <!--charts-->
+            <div class="charts">
+
+                <div class="charts-card">
+                    <p class="chart-title">Finance & Reports</p>
+                    <div id="bar-chart"></div>
+                </div>
+
+                <div class="charts-card">
+                    <p class="chart-title">Students & Results</p>
+                    <div id="area-chart"></div>
+                </div>
+
+     
+            </div>
+        </main>
+    </div>
+   
+
+  <!--ApexChart-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.49.1/apexcharts.min.js"></script>
+
+  <!--Javascript-->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+

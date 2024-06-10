@@ -1,0 +1,46 @@
+{
+    "categories": [
+      { "id": "1", "category": "student", "count": 1000, "icon": "people" },
+      { "id": "2", "category": "results", "count":  780, "icon":"content_paste"},
+      { "id": "3", "category": "reports", "count": 900, "icon": "inventory"},
+      { "id": "4", "category": "finance", "count": 500, "icon": "payment"}
+    ],
+    "chart":{
+        "series1": [
+            {
+                "name": "Grade 5" ,
+               "data": [123, 400, 890, 1000, 1500, 700, 500, 800, 1200]
+            },
+            {
+                "name": "Grade 4" ,
+               "data": [1321, 800, 859, 100, 1500, 200, 500, 1300, 1400]
+            },
+            {
+                "name": "Grade 3" ,
+                "data": [1234, 750, 900, 1000, 1200, 700, 560, 850, 1900]
+            },
+            {
+                "name": "Grade 2" ,
+                "data": [124, 700, 1300, 100, 200, 900, 550, 850, 1000]
+            }
+            
+      ],
+      "months": [
+        "Jan", "Feb"," Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept"
+    ],
+    "series2": [{
+        "name": "Grade 5 Black",
+        "type": "area",
+        "data": [44, 55, 31, 47, 31, 43,59]
+      }, {
+        "name": "Grade 5 Blue",
+        "type": "line",
+        "data": [55, 69, 45, 61, 43, 54,50]
+      }],
+      "months2": [
+        "Jan", "Feb"," Mar", "Apr", "May", "Jun", "Jul"
+    ]
+
+    }
+
+  }
